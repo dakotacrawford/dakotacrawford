@@ -1,79 +1,168 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
   <head>
-    <meta charset='utf-8'>
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <meta name="description" content="dakotacrawford : Portfolio Site">
+ 	<title>Dakota's home page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap -->
+    <link href="bootstrap.css" rel="stylesheet" type="text/css"> 
+    <link href="../news-sentinel/personalsite_jumbotron.css" rel="stylesheet" type="text/css">
+    <!-- font for header -->
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:700,300' rel='stylesheet' type='text/css'>
+    <!-- body font -->
+    <link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+    <script type="text/javascript">
+function MM_callJS(jsStr) { //v2.0
+  return eval(jsStr)
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
 
-    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
 
-    <title>dakotacrawford</title>
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+    </script>
+<style>
+	a:hover {color:#0047B2; background-color:transparent}
+</style>
+	<link href="thecss.css" rel="stylesheet" type="text/css">
   </head>
+<body onLoad="MM_preloadImages('original images/real_groundbreakin.JPG','original images/block_party_fans.jpg','original images/karam.jpg','original images/huff0209_DayNine_174-1024x682.jpg','original images/SuperFans.jpg','original images/sochi_colorado_gazette_.jpg','original images/real_tornado.jpg','original images/lembo_breaking_.jpg','original images/7857_godaddybowl_miksanek_25p.jpg')">
+<!------------------------------Header ----------------------------------------------------------------------------------------->
+ <div class="jumbotron">
+     <div class="container">
+         <div class="row">
+             <h1>Meet Dakota.</h1>
+         </div>
+ 	</div>
+ </div>    	
+ <!------------------------------NAVBAR----------------------------------------------------------------------------------------->
+ <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+  <div class="container">
+                    <ul class="nav navbar-nav">
+                      <li><a href="#clips">Clips</a></li>
+                      <li><a href="#experience">Experience</a></li>
+                      <li><a href="#">Resume</a></li>
+                  </ul>
+             </div>  
+    	</nav>  
+<!-- ____________________________________This is an area for a little about me. Just some bio._______________-->     
 
-  <body>
-
-    <!-- HEADER -->
-    <div id="header_wrap" class="outer">
-        <header class="inner">
-          <a id="forkme_banner" href="https://github.com/dakotacrawford/dakotacrawford">View on GitHub</a>
-
-          <h1 id="project_title">dakotacrawford</h1>
-          <h2 id="project_tagline">Portfolio Site</h2>
-
-            <section id="downloads">
-              <a class="zip_download_link" href="https://github.com/dakotacrawford/dakotacrawford/zipball/master">Download this project as a .zip file</a>
-              <a class="tar_download_link" href="https://github.com/dakotacrawford/dakotacrawford/tarball/master">Download this project as a tar.gz file</a>
-            </section>
-        </header>
-    </div>
-
-    <!-- MAIN CONTENT -->
-    <div id="main_content_wrap" class="outer">
-      <section id="main_content" class="inner">
-        <h3>
-<a name="welcome-to-github-pages" class="anchor" href="#welcome-to-github-pages"><span class="octicon octicon-link"></span></a>Welcome to GitHub Pages.</h3>
-
-<p>This automatic page generator is the easiest way to create beautiful pages for all of your projects. Author your page content here using GitHub Flavored Markdown, select a template crafted by a designer, and publish. After your page is generated, you can check out the new branch:</p>
-
-<pre><code>$ cd your_repo_root/repo_name
-$ git fetch origin
-$ git checkout gh-pages
-</code></pre>
-
-<p>If you're using the GitHub for Mac, simply sync your repository and you'll see the new branch.</p>
-
-<h3>
-<a name="designer-templates" class="anchor" href="#designer-templates"><span class="octicon octicon-link"></span></a>Designer Templates</h3>
-
-<p>We've crafted some handsome templates for you to use. Go ahead and continue to layouts to browse through them. You can easily go back to edit your page before publishing. After publishing your page, you can revisit the page generator and switch to another theme. Your Page content will be preserved if it remained markdown format.</p>
-
-<h3>
-<a name="rather-drive-stick" class="anchor" href="#rather-drive-stick"><span class="octicon octicon-link"></span></a>Rather Drive Stick?</h3>
-
-<p>If you prefer to not use the automatic generator, push a branch named <code>gh-pages</code> to your repository to create a page manually. In addition to supporting regular HTML content, GitHub Pages support Jekyll, a simple, blog aware static site generator written by our own Tom Preston-Werner. Jekyll makes it easy to create site-wide headers and footers without having to copy them across every page. It also offers intelligent blog support and other advanced templating features.</p>
-
-<h3>
-<a name="authors-and-contributors" class="anchor" href="#authors-and-contributors"><span class="octicon octicon-link"></span></a>Authors and Contributors</h3>
-
-<p>You can <a href="https://github.com/blog/821" class="user-mention">@mention</a> a GitHub username to generate a link to their profile. The resulting <code>&lt;a&gt;</code> element will link to the contributor's GitHub Profile. For example: In 2007, Chris Wanstrath (<a href="https://github.com/defunkt" class="user-mention">@defunkt</a>), PJ Hyett (<a href="https://github.com/pjhyett" class="user-mention">@pjhyett</a>), and Tom Preston-Werner (<a href="https://github.com/mojombo" class="user-mention">@mojombo</a>) founded GitHub.</p>
-
-<h3>
-<a name="support-or-contact" class="anchor" href="#support-or-contact"><span class="octicon octicon-link"></span></a>Support or Contact</h3>
-
-<p>Having trouble with Pages? Check out the documentation at <a href="http://help.github.com/pages">http://help.github.com/pages</a> or contact <a href="mailto:support@github.com">support@github.com</a> and we’ll help you sort it out.</p>
-      </section>
-    </div>
-
-    <!-- FOOTER  -->
-    <div id="footer_wrap" class="outer">
-      <footer class="inner">
-        <p class="copyright">dakotacrawford maintained by <a href="https://github.com/dakotacrawford">dakotacrawford</a></p>
-        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
-      </footer>
-    </div>
-
+<div class="juice">
+<br><br><br><br><br><br>
     
+  <div id="wrapper">  
+    <div id="mystory">
+                <p>I used to consider myself just a sports writer, but those days are long gone.</p><p>I've covered The Olympics as a student journalist, interned professionally with The Fort Wayne News-Sentinel and taught myself quite a bit along the way.</p><p>I root for any sports team hailing from Indianapolis, enjoy photography and have a passion for good writing. If you'd like to follow up on this chat, click those icons to the right. Some of my favorite articles are displayed below.</p><p>Pleased to meet you.</p>  
+    </div> 
+<!-- contacts ----------------------------------------------------------------------------------------------->	
+    <div class="contacts">
+           <ul class="socialicons">
+             <li><a class="imagerotate" href="https://www.linkedin.com/pub/dakota-crawford/6a/281/a65" target="blank"><img src="http://i.imgur.com/geM2tNf.png"></a></li><br>
+             <li><a class="imagerotate" href="https://twitter.com/DakotaCrawford_" target="_blank"><img src="http://i.imgur.com/DNx6IEL.png"></a></li><br>
+          </ul> 
+    </div>  
+          
+    <div class="contacts">      
+          <ul class="socialicons">  
+             <li><a class="imagerotate" href="http://instagram.com/dakotacrawford_" target="_blank"><img src="http://i.imgur.com/4mBnaqx.png"></a></li><br>
+             <li><a class="imagerotate" href="https://plus.google.com/u/0/105247633767692103166/posts" target="_blank"><img src="http://i.imgur.com/IusAJAL.png"></a></li><br>
+         </ul>
+    </div>                             
+  </div>
+                   
+      
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
-  </body>
+<!--______________________________________This is an area for clips, and thumbnails__________________________________-->
+
+<!-- _______________________________Fort Wayne News-Sentinel _____________________________________________-->
+     <div class="col-lg-4 col-sm-6 col-xs-12">
+     							<!-- Block party -->
+        <a name="clips" href="http://www.news-sentinel.com/apps/pbcs.dll/article?AID=/20140702/SPORTS/140709951/0/SEARCH" target="_blank">
+             <img src="http://i.imgur.com/VC028BL.jpg" class="thumbnail img-responsive" id="Image2" onMouseOver="MM_swapImage('Image2','','original images/block_party_fans.jpg',1)" onMouseOut="MM_swapImgRestore()">
+        </a>
+    </div>
+    						    <!-- Gora athletics -->
+     <div class="col-lg-4 col-sm-6 col-xs-12">
+        <a href="http://www.news-sentinel.com/apps/pbcs.dll/article?AID=/20140620/SPORTS/140619549/0/SEARCH" target="_blank">
+             <img src="http://i.imgur.com/LzgR0oC.jpg" class="thumbnail img-responsive" id="Image1" onMouseOver="MM_swapImage('Image1','','original images/real_groundbreakin.JPG',1)" onMouseOut="MM_swapImgRestore()">
+        </a>
+    </div>
+    						    <!-- Sage Karam -->
+     <div class="col-lg-4 col-sm-6 col-xs-12">
+        <a href="http://www.news-sentinel.com/apps/pbcs.dll/article?AID=/20140525/SPORTS/140529771/0/SEARCH" target="_blank">
+             <img src="http://i.imgur.com/JOOuE9R.jpg" class="thumbnail img-responsive" id="Image3" onMouseOver="MM_swapImage('Image3','','original images/karam.jpg',1)" onMouseOut="MM_swapImgRestore()">
+        </a>
+    </div>
+<!-- _______________________________BSU at the Whatever _______________________________________________________-->
+   							   <!--Chuck the Painter-->
+    <div class="col-lg-4 col-sm-6 col-xs-12" id="gridimage">
+        <a href="http://attheindianafair.com/2014/08/15/chuck-the-painters-art-and-quirky-signs-of-another-time-slowly-disappear-from-the-state-fair/" target="_blank">
+             <img src="http://i.imgur.com/Tyrtzqn.jpg" class="thumbnail img-responsive" id="Image4" onMouseOver="MM_swapImage('Image4','','original images/huff0209_DayNine_174-1024x682.jpg',1)" onMouseOut="MM_swapImgRestore()">
+        </a>
+    </div>
+     							   <!--American Outlaws-->
+     <div class="col-lg-4 col-sm-6 col-xs-12" id="gridimage">
+        <a href="http://www.nuvo.net/indianapolis/team-usa-super-fans-at-sochi/Content?oid=2771536#.VBACe_ldUZm" target="_blank">
+             <img src="http://i.imgur.com/gbvtVod.jpg" class="thumbnail img-responsive" id="Image5" onMouseOver="MM_swapImage('Image5','','original images/SuperFans.jpg',1)" onMouseOut="MM_swapImgRestore()">
+        </a>
+    </div>
+     								<!--Fans in Sochi-->
+     <div class="col-lg-4 col-sm-6 col-xs-12" id="gridimage">
+        <a href="http://gazette.com/american-fans-lacking-in-number-at-sochi-games/article/1515338" target="_blank">
+             <img src="http://i.imgur.com/v2zWjPy.jpg" class="thumbnail img-responsive" id="Image6" onMouseOver="MM_swapImage('Image6','','original images/sochi_colorado_gazette_.jpg',1)" onMouseOut="MM_swapImgRestore()">
+        </a>
+    </div>
+<!--________________________________The Ball State Daily News______________________________________________________-->
+										<!-- Tornado -->
+     <div class="col-lg-4 col-sm-6 col-xs-12" id="tornadoimage">
+       <a href="http://www.ballstatedaily.com/article/2013/06/athlete-gives-account-of-storm-in-oklahoma" target="_blank">
+             <img src="http://i.imgur.com/HKM8HwQ.jpg" class="thumbnail img-responsive" id="Image7" onMouseOver="MM_swapImage('Image7','','original images/real_tornado.jpg',1)" onMouseOut="MM_swapImgRestore()">
+        </a>
+    </div>
+    									<!-- Lembo breaking -->
+     <div class="col-lg-4 col-sm-6 col-xs-12" id="gridimage">
+        <a href="http://www.ballstatedaily.com/article/2014/03/lembo-contract-extended-given-raise" target="_blank">
+             <img src="http://i.imgur.com/F8pCoHj.jpg" class="thumbnail img-responsive" id="Image8" onMouseOver="MM_swapImage('Image8','','original images/lembo_breaking_.jpg',1)" onMouseOut="MM_swapImgRestore()">
+        </a>
+    </div>
+ 									    <!-- GoDaddy Gamer -->  
+     <div class="col-lg-4 col-sm-6 col-xs-12" id="gridimage">
+        <a href="http://www.ballstatedaily.com/article/2014/01/ball-state-loses-thriller-to-godaddy-bowl-opponent-arkansas-state" target="_blank">
+             <img src="http://i.imgur.com/RGZC5c5.jpg" class="thumbnail img-responsive" id="Image9" onMouseOver="MM_swapImage('Image9','','original images/7857_godaddybowl_miksanek_25p.jpg',1)" onMouseOut="MM_swapImgRestore()">
+        </a>
+    </div>
+    
+<!------------------ resume will go here eventually ------------------------------------------------------------------------>
+    
+    <div id="mystory"><a name="experience"></a><br><p>So, a little more about me.</p><p>I'm not quite profecient with HTML5 and CSS3, but I taught myself enough to code this website by hand. I was able to apply my knowledge on pieces <a href="http://www.news-sentinel.com/apps/pbcs.dll/article?AID=/20140715/SPORTS/140719800/0/SEARCH" target="_blank">like this</a> while working at The Fort Wayne News-Sentinel. I've shot a <a href="http://imgur.com/TWGiUza" target="_blank"> photo or two</a> with my Canon Rebel T3I. My experience with design doesn't go far beyond putting my <a href="" target="_blank">resume</a> together ... But isn't it pretty?</p><p>Though always a writer at heart, I have all the tools necessary to tell beautiful multimedia stories founded on great reporting.</p><br><br>
+	</div>
+    <br>
+    <br>
+    <br>
+	<div id="footer">
+    <iframe src='http://cdn.knightlab.com/libs/timeline/latest/embed/index.html?source=0Allt7P3nzbl4dG5aQ3hQQzhiMVBjU2RqYmFDakdWYUE&font=Bevan-PotanoSans&maptype=toner&lang=en&height=600' width='100%' height='600' frameborder='0'></iframe></div>
+</div></a>    
+
+
+  
+    <script src="//code.jquery.com/jquery.js"></script>
+    <script src="../news-sentinel/js/bootstrap.min.js"></script>
+</body>
 </html>
