@@ -63,8 +63,8 @@ h5 {
 
 .main {
 	width:100%;
+	position:absolute;
 	z-index:100;
-	position:relative;
 	background-color:white;
 	margin-top:500px;
 }
