@@ -29,6 +29,7 @@ body {
 	background-image:url('http://i.imgur.com/Bkb3PxA.jpg');
 	background-size:100%;
 	text-align:center;
+	position: fixed;
 }
 
 h1 {
