@@ -66,14 +66,13 @@ h5 {
 	position:absolute;
 	z-index:100;
 	background-color:white;
-	margin-top:500px;
+	margin-top:7000px;
 }
 
 .content {
 	width:60%;
 	margin:0 auto;
 	padding:60px 0px;
-	margin-top:500px;
 	background-color:white;
 }
 
