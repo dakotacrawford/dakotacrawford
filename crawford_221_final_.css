@@ -63,8 +63,9 @@ h5 {
 
 .main {
 	width:100%;
-	z-index: -1;
-	position: relative;
+	z-index:-1;
+	position:relative;
+	background-color:white;
 }
 
 .content {
