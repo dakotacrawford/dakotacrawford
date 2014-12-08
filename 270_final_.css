@@ -97,6 +97,12 @@ blockquote {
 	text-align:center;
 }
 
+.resource { 
+	width:100%;
+	padding:0px 0px 0px 50px;
+	background-color:#848484;
+	text-align:center; 
+}
 
 
 /*edits based on screen size*/
