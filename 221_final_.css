@@ -100,7 +100,7 @@ blockquote {
 	margin:0 auto;
 	padding:10px;
 	padding-left: 80px;
-	width:120%;
+	float: right;
 }
 
 .vertical { 
