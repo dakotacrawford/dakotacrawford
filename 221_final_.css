@@ -106,6 +106,18 @@ blockquote {
 	color:#999;
 }
 
+a:link {
+	color:#999;
+	text-decoration:none;
+}
+
+a:hover { 
+	text-decoration:underline;
+	color:#696969;
+
+}
+
+
 
 
 /*edits based on screen size*/
