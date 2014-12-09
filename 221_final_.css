@@ -101,9 +101,10 @@ blockquote {
 	display:block;
 	width:560px;
 	float:right;
-	padding-top:20px;
-	padding-bottom:20px;
+	padding-top:15px;
+	padding-bottom:15px;
 	padding-right:-50px;
+	padding-left:15px;
 
 }	
 
