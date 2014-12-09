@@ -97,6 +97,7 @@ blockquote {
 }
 
 .vid {
+	width:560px;
 	float:right;
 	padding:20px;
 	padding-left:250px;
