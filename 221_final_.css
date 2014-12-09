@@ -99,7 +99,7 @@ blockquote {
 .vid {
 	position:relative;
 	display:block;
-	width:560px;
+	width:120%;
 	float:right;
 	padding-top:15px;
 	padding-bottom:15px;
