@@ -35,7 +35,7 @@ body {
 
 h1 {
 	font-family:"Playfair Display", serif;
-	font-size:85px;
+	font-size:80px;
 	color:#fff;
 	margin-top:0px;
 	margin-bottom:-30px;
@@ -43,14 +43,14 @@ h1 {
 
 h3 {
 	font-family:"Playfair Display", serif;
-	font-size:20px;
+	font-size:30px;
 	color:#fff;
 	margin-bottom:0px;
 }
 
 h5 {
 	font-family:'Alice', serif;
-	font-size:12px;
+	font-size:16px;
 	font-weight:600;
 	color:#fff;
 	margin-bottom:0px;
