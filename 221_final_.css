@@ -98,9 +98,8 @@ blockquote {
 
 .vid {
 	margin:0 auto;
-	padding:10px;
-	padding-left: -80px;
-	float: right;
+	padding-left:-80px;
+	float:right;
 }
 
 .vertical { 
