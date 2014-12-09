@@ -43,13 +43,14 @@ h1 {
 
 h3 {
 	font-family:"Playfair Display", serif;
-	font-size:36px;
+	font-size:27px;
 	color:#fff;
 	margin-bottom:0px;
 }
 
 h5 {
-	font-size:1em;
+	font-family:'Alice', serif;
+	font-size:12px;
 	font-weight:600;
 	color:#fff;
 	margin-bottom:0px;
