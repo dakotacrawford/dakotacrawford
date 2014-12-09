@@ -25,10 +25,9 @@ body {
 
 .hero {
 	width:100%;
-	height:10000px;
 	padding:200px 0px;
 	background-image:url('http://i.imgur.com/Bkb3PxA.jpg');
-	/*background-size:100%;*/
+	background-size:100%;
 	text-align:center;
 	position:fixed;
 }
