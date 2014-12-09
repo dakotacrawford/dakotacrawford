@@ -97,6 +97,11 @@ blockquote {
 	text-align:center;
 }
 
+.vid {
+	margin:0 auto;
+	position: absolute;
+}
+
 
 
 /*edits based on screen size*/
