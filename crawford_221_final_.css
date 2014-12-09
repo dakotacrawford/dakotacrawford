@@ -101,6 +101,10 @@ blockquote {
 	margin:0 auto;
 }
 
+.vertical { 
+	border-left: dotted #ff0000;
+}
+
 
 
 /*edits based on screen size*/
