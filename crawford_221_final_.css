@@ -103,7 +103,8 @@ blockquote {
 }
 
 .vertical { 
-	border-left:thin solid #686868;
+	border-left:thick solid;
+	color:#999;
 }
 
 
