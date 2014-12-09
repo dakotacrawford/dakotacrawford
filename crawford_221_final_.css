@@ -99,10 +99,11 @@ blockquote {
 
 .vid {
 	margin:0 auto;
+	padding-left: 25px;
 }
 
 .vertical { 
-	border-left: dotted #ff0000;
+	border-left:thin solid #686868;
 }
 
 
