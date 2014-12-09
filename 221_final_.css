@@ -116,6 +116,12 @@ a:hover {
 	color:#696969;
 }
 
+.box { 
+	height:200px;
+	width:100%;
+	position:absolute;
+	background-color:#999; 
+}
 
 
 
