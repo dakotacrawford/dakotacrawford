@@ -28,7 +28,7 @@ body {
 	height:100%;
 	padding:200px 0px;
 	background-image:url('http://i.imgur.com/Bkb3PxA.jpg');
-	background-repeat:no-repeat;
+	background-size:100%;
 	text-align:center;
 	position:fixed;
 }
