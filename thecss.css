@@ -5887,3 +5887,34 @@ html, body {
 	width: auto !important;
 	overflow-x: hidden !important;	
 }
+
+@media (max-width: 767px) {
+	
+	.jumbotron {
+		height: 500px;
+	}
+		
+	
+	.jumbotron h1 {
+  font-size: 100px;    
+  position:relative;
+  top:357px;
+	}
+	
+	
+}
+
+@media (min-width: 320px; max-width: 766px) {
+	
+	.jumbotron {
+		height: 100%;
+	}
+		
+	
+	.jumbotron h1 {
+  font-size: 50px;    
+  position:relative;
+  top:357px;
+	}
+}
+
