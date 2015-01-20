@@ -57,6 +57,11 @@ h5 {
 	color:#000000;
 }
 
+.investigative {
+	width: 100%;
+	margin: auto;
+}
+
 .work {
 	display: inline-block;
 	width: 30%;
