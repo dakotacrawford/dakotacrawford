@@ -64,6 +64,7 @@ h5 {
 .work {
 	display: inline-block;
 	width: 30%;
+	height:100%;
 	margin: 5px;
 }
 
