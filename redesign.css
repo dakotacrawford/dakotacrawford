@@ -32,7 +32,7 @@ body {
 }
 
 .content {
-	width:70%;
+	width:80%;
 	margin:0 auto;
 	padding:60px 0px;
 	background-color:white;
@@ -59,8 +59,8 @@ h5 {
 
 .work {
 	display: inline-block;
-	width: 33%;
-	padding: 1em;
+	width: 30%;
+	padding: 10px;
 
 }
 
