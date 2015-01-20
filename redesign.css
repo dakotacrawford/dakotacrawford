@@ -66,6 +66,7 @@ h5 {
 
 .work {
 	display: inline-block;
+	vertical-align: top;
 	width: 30%;
 	height:100%;
 	margin: 5px;
