@@ -63,18 +63,17 @@ h5 {
 
 }
 
-p {
+.top p {
 	font-family: 'Alice', serif;
 	font-size:24px;
 	color:#000;
 }
 
 .content p {
-	font-family: 'Alice'; serif;
+	font-family: 'Alice', serif;
 	font-size:16px;
 	color:#000;
 }
-
 
 
 a:link {
