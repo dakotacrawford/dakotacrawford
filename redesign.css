@@ -71,11 +71,11 @@ h5 {
 
 .top {
 	font-family: 'Alice', serif;
-	font-size:24px;
+	font-size:48px;
 	color:#000;
 }
 
-.content p {
+.content {
 	font-family: 'Alice', serif;
 	font-size:16px;
 	color:#000;
