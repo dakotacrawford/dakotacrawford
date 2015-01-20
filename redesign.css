@@ -38,41 +38,19 @@ body {
 	background-color:white;
 }
 
+.work {
+	display: inline-block;
+	width: 33%;
+
+}
+
 p {
 	font-family: 'Alice', serif;
 	font-size:16px;
 	color:#000;
 }
 
-blockquote {
-	font-family:"Playfair Display", serif;
-	font-size:24px;
-	color:#999;
-}
 
-.vid {
-	position:relative;
-	display:block;
-	width:560px;
-	float:right;
-	padding-top:15px;
-	padding-bottom:15px;
-	padding-right:-50px;
-	padding-left:15px;
-
-}
-
-.vid2 {
-	position: relative;
-	margin-left: auto;
-	margin-right: auto;
-	display:block;
-}	
-
-.vertical { 
-	border-left:medium solid;
-	color:#999;
-}
 
 a:link {
 	text-decoration:none;
