@@ -61,6 +61,7 @@ h3 {
 	font-family:"Alice", serif;
 	font-size:30px;
 	color:#000000;
+	text-align: center;
 }
 
 h5 {
@@ -72,7 +73,6 @@ h5 {
 
 .investigative {
 	width: 100%;
-	text-align: center;
 	text-align: justify;
 
 }
