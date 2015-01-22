@@ -93,6 +93,8 @@ h5 {
 .work p {
 	font-family: 'Open Sans', sans-serif;
 	line-height: 1.5em; 
+	position: relative;
+	top: 200px;
 }
 
 .work h5 {
