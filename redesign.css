@@ -124,6 +124,11 @@ h5 {
 	text-align: center;
 }
 
+.vertical { 
+	border-left:medium solid;
+	color:#999;
+}
+
 .top {
 	font-family: 'Alice', serif;
 	font-size:36px;
