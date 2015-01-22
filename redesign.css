@@ -129,6 +129,8 @@ h5 {
 }
 
 .experience hr { 
+ 
+    position: relative;
 	padding-bottom: 15px;
 }
 
