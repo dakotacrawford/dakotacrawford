@@ -127,10 +127,11 @@ h5 {
 .vertical { 
 
 	border-left: thin;
-	background-image: -webkit-linear-gradient(left, rgba(0,0,0,0.75), rgba(0,0,0,0.50), rgba(0,0,0,0)); 
-    background-image:    -moz-linear-gradient(left, rgba(0,0,0,0.75), rgba(0,0,0,0.50), rgba(0,0,0,0)); 
-    background-image:     -ms-linear-gradient(left, rgba(0,0,0,0.75), rgba(0,0,0,0.50), rgba(0,0,0,0)); 
-    background-image:      -o-linear-gradient(left, rgba(0,0,0,0.75), rgba(0,0,0,0.50), rgba(0,0,0,0)); 
+	width: 1px;
+	background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.75), rgba(0,0,0,0.50), rgba(0,0,0,0)); 
+    background-image:    -moz-linear-gradient(top, rgba(0,0,0,0.75), rgba(0,0,0,0.50), rgba(0,0,0,0)); 
+    background-image:     -ms-linear-gradient(top, rgba(0,0,0,0.75), rgba(0,0,0,0.50), rgba(0,0,0,0)); 
+    background-image:      -o-linear-gradient(top, rgba(0,0,0,0.75), rgba(0,0,0,0.50), rgba(0,0,0,0)); 
 }
 	
 .top {
