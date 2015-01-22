@@ -77,12 +77,13 @@ h5 {
 
 .investigative h3 { 
 	text-align: left;
+	padding-bottom: 50;
 }
 
 .work {
 	display: inline-block;
 	vertical-align: top;
-	text-align: justify;
+	text-align: left;
 	width: 30%;
 	height:100%;
 	margin: 15px;
