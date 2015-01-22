@@ -88,6 +88,10 @@ h5 {
 	margin: 5px;
 }
 
+.work p {
+	font-family: 'Open Sans', sans-serif;
+}
+
 .top {
 	font-family: 'Alice', serif;
 	font-size:36px;
