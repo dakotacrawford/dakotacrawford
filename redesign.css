@@ -117,6 +117,12 @@ h5 {
 	padding-bottom: 200px;
 }
 
+.experience h3 { 
+	font-family:"Alice", serif;
+	font-size:30px;
+	color:#000000;
+	text-align: center;
+}
 
 .top {
 	font-family: 'Alice', serif;
