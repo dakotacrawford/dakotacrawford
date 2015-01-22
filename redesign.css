@@ -40,6 +40,11 @@ body {
 .top {
 	text-align: center;
 }
+
+.top p {
+	position: relative;
+	bottom: 50px;
+}
 	
 hr {
 
