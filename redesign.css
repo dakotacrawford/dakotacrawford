@@ -78,7 +78,7 @@ h5 {
 .investigative h3 { 
 	text-align: left;
 	position: relative;
-	top: 30px;
+	top: 0px;
 }
 
 .work {
@@ -93,6 +93,11 @@ h5 {
 .work p {
 	font-family: 'Open Sans', sans-serif;
 	line-height: 1.5em; 
+}
+
+.work h5 {
+	position: relative;
+	padding-top: 10px;
 }
 
 .top {
