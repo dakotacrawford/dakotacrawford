@@ -87,7 +87,7 @@ h5 {
 	text-align: left;
 	width: 30%;
 	height:100%;
-	margin: 15px;
+	margin: 12px;
 }
 
 .work p {
@@ -100,6 +100,11 @@ h5 {
 .work h5 {
 	position: relative;
 	padding-top: 10px;
+}
+
+.work a {
+	position: relative;
+	padding-bottom: 15px;
 }
 
 .top {
