@@ -119,29 +119,15 @@ h5 {
 
 .experience h3 { 
 	font-family:"Alice", serif;
-	font-size:45px;
-	color:#fff;
+	font-size:50px;
+	color:#000;
 	text-align: center;
 }
 
 .experience { 
 	width: 100%;
-	
 }
 
-
-.vertical { 
-
-	border-left: thin;
-	background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.75), rgba(0,0,0,0.50), rgba(0,0,0,0)); 
-    background-image:    -moz-linear-gradient(top, rgba(0,0,0,0.75), rgba(0,0,0,0.50), rgba(0,0,0,0)); 
-    background-image:     -ms-linear-gradient(top, rgba(0,0,0,0.75), rgba(0,0,0,0.50), rgba(0,0,0,0)); 
-    background-image:      -o-linear-gradient(top, rgba(0,0,0,0.75), rgba(0,0,0,0.50), rgba(0,0,0,0)); 
-}
-
-.vertical work { 
-
-}
 	
 .top {
 	font-family: 'Alice', serif;
