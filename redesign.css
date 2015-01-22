@@ -128,6 +128,10 @@ h5 {
 	width: 100%;
 }
 
+.experience hr { 
+	padding-bottom: 15px;
+}
+
 	
 .top {
 	font-family: 'Alice', serif;
@@ -140,8 +144,6 @@ h5 {
 	font-size:12px;
 	color:#000;
 }
-
-
 
 
 a:link {
