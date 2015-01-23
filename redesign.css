@@ -121,11 +121,12 @@ h5 {
 	font-family:"Alice", serif;
 	font-size:50px;
 	color:#000;
-	text-align: center;
+	text-align: left;
 }
 
-.experience { 
-	width: 100%;
+.experience work { 
+	padding-bottom: 10px;
+	
 }
 
 
