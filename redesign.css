@@ -124,9 +124,10 @@ h5 {
 	text-align: left;
 }
 
-.experience work { 
+.experience hr { 
+	position: relative;
 	padding-bottom: 10px;
-	
+
 }
 
 
