@@ -7,6 +7,10 @@ body {
   display:none;
 }
 
+.mobilecategory {
+  display:none;
+}
+
 .menu {
   position:fixed;
   width:100%;
@@ -343,8 +347,7 @@ a:hover {
     }
 
      h3 {
-      font-size:50px;
-      padding-top:45px;
+      display: none;
     }
 
     .work h5 {
