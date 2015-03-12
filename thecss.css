@@ -352,6 +352,7 @@ a:hover {
 
     .mobilecategory {
       display:inherit;
+      font-style: italic;
     }
 
     .work h5 {
