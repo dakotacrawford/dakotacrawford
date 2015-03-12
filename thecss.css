@@ -350,6 +350,10 @@ a:hover {
       display: none;
     }
 
+    .mobilecategory {
+      display:inherit;
+    }
+
     .work h5 {
       font-size:45px;
     }
