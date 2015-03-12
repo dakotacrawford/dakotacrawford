@@ -358,3 +358,39 @@ a:hover {
     }
 
  }
+
+ @media only screen (min-device-width : 320px) and (max-device-width : 568px) { 
+
+    .content {
+      width:90%;
+      padding-left:5%;
+      padding-right:5%;
+    }
+    
+    .content h1 {
+      font-size:90px;
+      padding-top:75px;
+    }
+
+    .top p {
+      font-size: 45px;
+      padding-top:60px;
+    }
+
+    .work { 
+      display:inline;
+    }
+
+     h3 {
+      font-size:40px;
+      padding-top:45px;
+    }
+
+    hr {
+      display: none;
+    }
+
+     .view {
+      display: none;
+    }
+ }
