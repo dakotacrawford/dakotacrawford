@@ -318,7 +318,7 @@ a:hover {
 
 }
 
-@media (min-device-width : 375px) and (max-device-width : 667px) and (orientation : landscape) and (-webkit-min-device-pixel-ratio : 2) {
+@media (min-device-width : 375px) and (max-device-width : 667px) and (orientation : portrait) and (-webkit-min-device-pixel-ratio : 2) {
 
     .content {
       width:90%;
