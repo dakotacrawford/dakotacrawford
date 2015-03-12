@@ -359,7 +359,7 @@ a:hover {
 
  }
 
- @media only screen (min-device-width : 320px) and (max-device-width : 568px) { 
+ @media (min-device-width : 320px) and (max-device-width : 568px) { 
 
     .content {
       width:90%;
