@@ -161,7 +161,6 @@ a:hover {
 }
 
 
-
 /*queries
 @media (max-width:800px) {
   .content {
@@ -192,7 +191,7 @@ a:hover {
 }
   */
 
-@media (max-width:400px) {
+@media (max-width:600px) {
 
     .content {
     width:90%;
