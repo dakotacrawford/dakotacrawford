@@ -3,6 +3,10 @@ body {
   margin:0px;
 }
 
+.hide {
+  display:none;
+}
+
 .menu {
   position:fixed;
   width:100%;
@@ -204,39 +208,10 @@ a:hover {
     and (orientation : portrait) 
     and (-webkit-min-device-pixel-ratio : 2)
 { }
-*/
-
-@media (max-width:400px) {
-
-    .content {
-    width:90%;
-    padding-left:5%;
-    padding-right:5%;
-    }
-    
-    .content h1 {
-      font-size:60px;
-      padding-top:75px;
-    }
-
-    .top p {
-      font-size: 15px;
-      padding-top:60px;
-    }
-
-    .work { 
-      display:inline;
-    }
-
-     h3 {
-      font-size:45px;
-    }
 
 
-}
 
-
-@media (min-width: 375px) and (max-width: 667px) and (orientation:portrait) and (-webkit-min-device-pixel-ratio : 2) {
+@media (min-width: 375px) and (max-width: 667px) and (orientation:portrait)  {
 
    .content {
     width:90%;
@@ -262,4 +237,55 @@ a:hover {
       font-size:45px;
     }
 
+}
+*/
+
+@media (max-width:400px) {
+
+    .content {
+      width:90%;
+      padding-left:5%;
+      padding-right:5%;
+    }
+    
+    .content h1 {
+      font-size:60px;
+      padding-top:75px;
+    }
+
+    .top p {
+      font-size: 15px;
+      padding-top:60px;
+    }
+
+    .work { 
+      display:inline;
+    }
+
+     h3 {
+      font-size:45px;
+    }
+
+
+}
+
+@media (min-width:401px) and (max-width: 900px) {
+
+  .content { 
+    width: 70%
+  }
+
+  .content h1 {
+    font-size:50px;
+    padding-top:75px;
+  }
+
+  .top p {
+    font-size: 35px;
+    padding-top:60px;
+    }
+
+  .work { 
+    display: inline;
+  }
 }
