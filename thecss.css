@@ -316,6 +316,10 @@ a:hover {
       font-size:45px;
     }
 
+    .view {
+      display: none;
+    }
+
 }
 
 @media (min-device-width : 375px) and (max-device-width : 667px) and (orientation : portrait) and (-webkit-min-device-pixel-ratio : 2) {
@@ -346,6 +350,10 @@ a:hover {
     }
 
     hr {
+      display: none;
+    }
+
+     .view {
       display: none;
     }
 
