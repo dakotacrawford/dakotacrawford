@@ -290,6 +290,8 @@ a:hover {
   }
 }
 
+/*iPhone 6 queries*/
+
 @media (min-device-width : 375px) and (max-device-width : 667px) and (orientation : landscape) and (-webkit-min-device-pixel-ratio : 2) { 
 
     .content {
@@ -359,7 +361,45 @@ a:hover {
 
  }
 
- @media (min-device-width : 320px) and (max-device-width : 568px) { 
+ /*iPhone 5 queries*/
+
+ @media (min-device-width : 320px) and (max-device-width : 568px) and (orientation : portrait) { 
+
+    .content {
+      width:90%;
+      padding-left:5%;
+      padding-right:5%;
+    }
+    
+    .content h1 {
+      font-size:90px;
+      padding-top:75px;
+    }
+
+    .top p {
+      font-size: 45px;
+      padding-top:60px;
+    }
+
+    .work { 
+      display:inline;
+    }
+
+     h3 {
+      font-size:40px;
+      padding-top:45px;
+    }
+
+    hr {
+      display: none;
+    }
+
+     .view {
+      display: none;
+    }
+ }
+
+ @media (min-device-width : 320px) and (max-device-width : 568px) and (orientation : landscape) { 
 
     .content {
       width:90%;
