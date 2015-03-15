@@ -169,80 +169,7 @@ a:hover {
 }
 
 
-/*queries
-@media (max-width:800px) {
-  .content {
-    width:90%;
-  }
-  /*
-  .content h1, .content h3, .content h5 {
-    display:block;
-    color:#000;
-
-  }
-
-  .content h1 {
-    font-size:2.5em;
-    margin-top:-20px;
-    margin-bottom:-15px;
-  }
-
-  .content h3 {
-    font-size:1.25em;
-    margin-bottom:10px;
-  }
-
-  .content h5 {
-    font-size:0.9em;
-    margin-bottom:20px;
-  }
-}
-
-
-@media 
-    and (min-device-width : 375px) 
-    and (max-device-width : 667px) 
-    and (orientation : landscape) 
-    and (-webkit-min-device-pixel-ratio : 2)
-{ }
-
-@media only screen 
-    and (min-device-width : 375px) 
-    and (max-device-width : 667px) 
-    and (orientation : portrait) 
-    and (-webkit-min-device-pixel-ratio : 2)
-{ }
-
-
-
-@media (min-width: 375px) and (max-width: 667px) and (orientation:portrait)  {
-
-   .content {
-    width:90%;
-    padding-left:5%;
-    padding-right:5%;
-    }
-    
-    .content h1 {
-      font-size:60px;
-      padding-top:75px;
-    }
-
-    .top p {
-      font-size: 15px;
-      padding-top:60px;
-    }
-
-    .work { 
-      display:inline;
-    }
-
-     h3 {
-      font-size:45px;
-    }
-
-}
-*/
+/*queries*/
 
 @media (max-width:400px) {
 
@@ -326,6 +253,10 @@ a:hover {
       display: none;
     }
 
+    a { 
+      font-size: 45px;
+    }
+
 }
 
 @media (min-device-width : 375px) and (max-device-width : 667px) and (orientation : portrait) and (-webkit-min-device-pixel-ratio : 2) {
@@ -373,6 +304,10 @@ a:hover {
 
      .view {
       display: none;
+    }
+
+     a { 
+      font-size: 45px;
     }
 
  }
