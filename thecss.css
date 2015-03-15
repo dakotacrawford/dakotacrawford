@@ -257,6 +257,15 @@ a:hover {
       font-size: 45px;
     }
 
+    .experience h3 { 
+      font-family:"Alice", serif;
+      font-size:50px;
+      color:#000;
+      text-align: left;
+      position: relative;
+      padding-top: 10px;
+    }
+
 }
 
 @media (min-device-width : 375px) and (max-device-width : 667px) and (orientation : portrait) and (-webkit-min-device-pixel-ratio : 2) {
@@ -310,6 +319,15 @@ a:hover {
       font-size: 45px;
     }
 
+    .experience h3 { 
+      font-family:"Alice", serif;
+      font-size:50px;
+      color:#000;
+      text-align: left;
+      position: relative;
+      padding-top: 10px;
+    }
+
  }
 
  /*iPhone 5 queries*/
@@ -348,6 +366,19 @@ a:hover {
      .view {
       display: none;
     }
+
+    a { 
+      font-size: 45px;
+    }
+
+    .experience h3 { 
+      font-family:"Alice", serif;
+      font-size:50px;
+      color:#000;
+      text-align: left;
+      position: relative;
+      padding-top: 10px;
+    }
  }
 
  @media (min-device-width : 320px) and (max-device-width : 568px) and (orientation : landscape) { 
@@ -383,5 +414,18 @@ a:hover {
 
      .view {
       display: none;
+    }
+
+    a { 
+      font-size: 45px;
+    }
+
+    .experience h3 { 
+      font-family:"Alice", serif;
+      font-size:50px;
+      color:#000;
+      text-align: left;
+      position: relative;
+      padding-top: 10px;
     }
  }
