@@ -245,6 +245,11 @@ a:hover {
       display:inline;
     }
 
+    .mobilecategory {
+      display:inherit;
+      font-style: italic;
+    }
+
      h3 {
       font-size:45px;
     }
