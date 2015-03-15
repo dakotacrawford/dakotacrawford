@@ -264,6 +264,7 @@ a:hover {
       text-align: left;
       position: relative;
       padding-top: 10px;
+      display: inherit;
     }
 
 }
@@ -326,6 +327,7 @@ a:hover {
       text-align: left;
       position: relative;
       padding-top: 10px;
+      display: inherit;
     }
 
  }
@@ -378,6 +380,7 @@ a:hover {
       text-align: left;
       position: relative;
       padding-top: 10px;
+      display: inherit;
     }
  }
 
@@ -427,5 +430,6 @@ a:hover {
       text-align: left;
       position: relative;
       padding-top: 10px;
+      display: inherit;
     }
  }
