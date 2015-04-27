@@ -1,0 +1,726 @@
+<html>
+	<head>
+    <title> NEWS 233 | Crawford, Chokey</title>
+    <meta charset="UTF-8">
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Cardo:400,700,400italic' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=PT+Mono' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Playfair+Display:400,700,900,400italic,700italic,900italic' rel='stylesheet' type='text/css'>
+    <script src="http://code.jquery.com/jquery-2.0.2.js"></script>
+    
+<meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0" />
+  
+  <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+  <script>
+  $(window).scroll(function () {
+        $('#divtop, #divtop2, #divtop3').css({
+            'top': -($(this).scrollTop() / 3) + "px"
+        });
+    });
+  </script>
+  <script>
+  var main = main = $('#main ul');
+$('.scroll').click(function(event) {
+        
+    event.preventDefault();
+ 
+    var full_url = this.href,
+        parts = full_url.split('#'),
+        trgt = parts[1],
+        target_offset = $('#'+trgt).offset(),
+        target_top = target_offset.top;
+        
+    $('html, body').animate({scrollTop:target_top}, 500);
+    
+    /* Remove active class on any li when an anchor is clicked */
+    
+    main.children().removeClass();
+    
+    /* Add active class to clicked anchor's parent li */
+        
+    $(this).parent().addClass('active');
+});
+  </script>
+    
+ <link rel="shortcut icon" href="https://farm6.staticflickr.com/5575/13861730454_8a7b78354d_o.png">
+  
+  <meta name="keywords" content="Ball, State, Daily, News">
+  
+    <style>
+	
+      body {
+      margin:0px;
+      background-image:url('http://i.imgur.com/I8fCACt.jpg');
+      background-attachment:fixed;
+      background-position:top left;
+      background-repeat:no-repeat;
+      background-size: 100%;
+      min-height:100%;
+      }
+	  
+	  .dropcap {
+	    float: left; 
+      font-family:'Playfair display';
+      font-size:65pt;
+      display:inline;
+      font-weight:600; 
+      line-height: 50px; 
+      padding-top: 4px; 
+      padding-right: 20px; 
+      padding-left: 4px;
+      padding-bottom:20px;
+    }
+	  
+	  .content {
+		  clear:both;
+		  
+		  width:60%;
+		  
+		  padding-bottom:30px;
+		  display:block;
+		  
+		  color:#3A3A3C;
+		  
+		  margin-left: auto;
+		  margin-right: auto;
+		  
+		  padding-left:20%;
+		  padding-right:20%;
+	  }
+	  
+	  .sidebar {
+		  width:50%;
+      display:block;
+      float:right;
+      font-size:16px;
+      font-family:'opens sans', tahoma, sans-serif;
+		  padding-left:30px;
+		  color:#3A3A3C;
+	  }
+
+    .sidebar p {
+      font-size:12px;
+      font-family:'opens sans', tahoma, sans-serif;
+      font-style: italic;
+    }
+	  
+	  .footer{
+		  width:60%;
+		  background-color:#FFF;
+		  display:block;
+		  padding-bottom:30px;
+		  bottom:0px;
+		  font-family:'opens sans', tahoma, sans-serif;
+      font-size:10pt;
+	    color:#999;
+      line-height:30px;
+      text-align:center;
+	    clear:both;
+	    margin-left:auto;
+	    margin-right:auto;
+	  
+	  }
+	  
+      .divbuffer {
+      z-index:10px;
+      margin-top:220px;
+      margin-bottom:305px;
+      float:block;
+      width:100%;
+      text-align:center;
+      color:#ffffff;
+      text-shadow: 1px 1px 5px #000000;
+      }
+      
+      .headline {
+      font-family:'Playfair Display';
+      font-weight:800;
+      text-align: left;
+      padding-left:5%;
+      line-height: 100px;
+      font-size:100px;
+	    max-width:55%;
+      }
+      
+      .subhead {
+      font-family:'Playfair Display';
+      text-align: left;
+      padding-left:5%; 
+      font-weight:800;
+      font-size:45px;
+	    
+      }
+      
+      .byline {
+      font-family:'Open-Sans',Tahoma,sans-serif;
+      font-weight:300;
+      text-align: left;
+      padding-left: 5%;
+      font-size:20px;
+      }
+
+      .subbr {
+      display:none;
+      }
+      
+      .divbottom {
+      background-color:#ffffff;
+      z-index:10;
+      float:block;
+      width:100%;
+	  display:inline-block;
+      }
+    
+      p {
+      font-family:'pt serif', serif;
+      font-size:15pt;
+      line-height:25px;
+      text-align:left;
+      }
+      
+      p:first-child:first-letter { 
+      float: left; 
+      font-family:'opens sans', tahoma, sans-serif;
+      font-size:50pt;
+      display:inline;
+      font-weight:600; 
+      line-height: 50px; 
+      padding-top: 4px; 
+      padding-right: 10px; 
+      padding-left: 3px;
+      padding-bottom:5px;
+      }
+      
+      .caption {
+      font-family:'open sans', tahoma, sans-serif;
+      font-size:10pt;
+      color:#878787;
+      font-weight:400italic;
+      text-align:center;
+      }
+      
+      .captionlink {
+      font-family:'open sans', tahoma, sans-serif;
+      font-size:10pt;
+      color:#878787;
+      font-weight:400italic;
+      text-align:center;
+      text-decoration:underline;
+      }
+      
+      .captionlink:hover {
+      font-family:'open sans', tahoma, sans-serif;
+      font-size:10pt;
+      color:#878787;
+      font-weight:400italic;
+      text-align:center;
+      text-decoration:none;
+      }
+      
+      .navbar {
+      position:fixed;
+      top:0;
+      left:0;
+      z-index:30;
+      text-align:left;
+      width:100%;
+      background-color:#000000;
+      padding:10px;
+      font-family:'opens sans', tahoma, sans-serif;
+      font-size:12pt;
+      color:#ffffff;
+      font-weight:500;
+      text-decoration:none;
+      }
+	  
+	  .navbottom {
+      position:fixed;
+      bottom:0;
+      z-index:30;
+      width:100%;
+      background-color:#3A3A3C;
+      font-family:'opens sans', tahoma, sans-serif;
+      font-size:8pt;
+      color:#ffffff;
+      font-weight:300;
+      text-decoration:none;
+	    clear:both;  
+	    padding-top:5px;
+	    padding-bottom:5px;
+	  }
+      
+      .navlinks {
+		  clear:both;
+      font-family:'opens sans', tahoma, sans-serif;
+      font-size:8pt;
+      color:#ffffff;
+      font-weight:500;
+      text-decoration:none;
+	    padding:10px;
+      }
+	  
+	  .navlinks.active {
+		  font-weight:500;
+	  }
+      
+      .navlinks:hover {
+      font-family:'opens sans', tahoma, sans-serif;
+      font-size:10pt;
+      color:#ffffff;
+      font-weight:500;
+      text-decoration:none;
+      border-bottom:2px solid #ffffff;
+      }
+      
+      .navmobile {
+      display:none;
+      }
+      
+      .navlist {
+      display:none;
+      }
+      
+      .big-text {
+		font-size:200px; 
+	 
+	  }
+	  
+	  .text-head {
+      font-size:30pt;
+      font-weight:1000;
+	  }
+	  
+	  .blockquote{
+      font-weight:600;
+      margin-right:10%;
+      font-size:30px;
+	    padding-top:10px;
+	    padding-bottom:10px;
+	  }
+	  
+	  aside {
+      font-weight:600;
+      margin-right:10%;
+      font-size:30px;
+	    border-top: 1px solid #396;
+	    border-bottom: 1px solid #396;
+	    padding-top:20px;
+	    padding-bottom:30px; 
+	  }
+	  
+	  .extra-pad{
+		  padding-top:20px;
+		  padding-bottom:20px;
+	  }
+	  
+	  .side-img{
+		  width:100%;
+		  position:relative;
+	  }
+	  
+	  .side-text{
+		  width:100%;
+		  font-size:14px;
+		  text-align:justify;
+		  font-family:'opens sans', tahoma, sans-serif;
+		  float:left;	
+	  }
+	  
+	  .image-pane{
+		  
+		  display:none;
+		  position:fixed;
+		  width:100%;
+		  height:100%;
+		  z-index:900;
+		  top:0;
+		  left:0;
+		  background-color: rgba(51,51,51,0.7);
+	  }
+	  
+	  .popup{
+		   clear:both;
+		   width:80%;
+		   position:relative;
+		   top:200px;
+	  }	  
+	  
+	  .body-graphic {
+		   width:100%;
+		   font-family:'opens sans', tahoma, sans-serif;
+		   text-align:center;
+		     
+	  }
+	  
+	  h1, h2, h3, h4, h5, h6 {
+		  font-family:'opens sans', tahoma, sans-serif;
+	  }
+	  
+	  h1 {
+		  font-size:36px;
+	  }
+
+    p a { 
+      text-decoration: none;
+      color:#000;
+    }
+
+    p a:active { 
+      text-decoration: underline;
+      color:#000;
+    }
+
+    p a:visited { 
+      text-decoration:none;
+      color:#000;
+    } 
+	  
+	  .nodrop:first-child:first-letter {
+		  
+	  }
+	  
+	  .nav-bul {
+		  text-decoration:none;
+		  display:inline;
+		  clear:both;
+		  padding: 0px;
+		margin: 0px;  
+	  }
+	  ul {
+		padding: 0px;
+		margin: 0px;  
+	  }
+	  li {
+		 padding: 0px;
+		margin: 0px;  
+	  }
+      @media (min-width:801px) and (max-width: 1400px) {
+      
+      body {
+      margin:0px;
+      background-image:url('http://i.imgur.com/I8fCACt.jpg');
+      background-attachment:fixed;
+      background-position:top left;
+      background-repeat:no-repeat;
+      background-size: 1400px auto;
+	  margin:0px;
+      min-height: auto 100%;
+      }
+      
+          #divbottom {
+          
+          background-color:#ffffff;
+		  
+          
+      }
+      }
+      @media (max-width: 400px) {
+
+      .sidebar {
+      display:none;
+      }
+      
+      body {
+      margin:0px;
+      background-image:url('http://i.imgur.com/I8fCACt.jpg');
+      background-attachment:fixed;
+      background-position: top right;
+      background-repeat:no-repeat;
+      background-size: 550px;
+      min-height:100%;
+      padding-bottom:-300px;
+
+      }
+
+      .content {
+      clear:both;
+      width:90%;
+      padding-bottom:30px;
+      display:block;
+      color:#3A3A3C;
+      margin-left: auto;
+      margin-right: auto;
+      padding-left:5%;
+      padding-right:5%;
+    }
+    
+      
+      p {
+      font-family:'pt serif', serif;
+      font-size:13pt;
+      line-height:22px;
+      text-align:left;
+      }
+
+      .dropcap {
+      float: left; 
+      font-family:'Playfair display';
+      font-size:40pt;
+      display:inline;
+      font-weight:600; 
+      line-height: 20px; 
+      padding-top: 0px; 
+      padding-right: 10px; 
+      padding-left: 4px;
+      padding-bottom:20px;
+
+      }
+      
+      .divbuffer {
+      z-index:10px;
+      margin-top:150px;
+      margin-bottom:20px;
+      float:block;
+      width:100%;
+      text-align:right;
+      color:#ffffff;
+      text-shadow: 1px 1px 5px #000000;
+      }
+      
+      p:first-child:first-letter { 
+      float: left; 
+      font-family:'opens sans', tahoma, sans-serif;
+      font-size:70pt;
+      display:inline;
+      font-weight:600; 
+      line-height: 80px; 
+      padding-top: 4px; 
+      padding-right: 20px; 
+      padding-left: 3px;
+      padding-bottom:10px;
+      }
+      
+      .navbar {
+      display:none;
+      }
+      
+      .navmobile {
+      position:fixed;
+      z-index:10;
+      text-align:left;
+      width:100%;
+      background-color:#000000;
+      padding:10px;
+      font-family:'opens sans', tahoma, sans-serif;
+      font-size:12pt;
+      color:#ffffff;
+      font-weight:500;
+      text-decoration:none;
+      display:block;
+      top:0;
+      left:0;
+      }
+      .navlinks2 {
+      font-family:'opens sans', tahoma, sans-serif;
+      font-size:12pt;
+      color:#ffffff;
+      margin-left:15px;
+      margin-right:15px;
+      font-weight:500;
+      text-decoration:none;
+      }
+      
+      .navlinks2:hover {
+      font-family:'opens sans', tahoma, sans-serif;
+      font-size:12pt;
+      color:#ffffff;
+      margin-left:15px;
+      margin-right:15px;
+      font-weight:500;
+      text-decoration:none;
+      border-bottom:2px solid #ffffff;
+      }
+      
+      .headline {
+      font-family:'Playfair Display';
+      font-size: 50px;
+      text-align: left;
+      font-weight:500;
+      line-height:50px;
+      width:400px;
+      }
+      
+      .subhead {
+      font-family:'Playfair Display';
+      font-size:20px;
+      font-weight:400;
+      text-align:left;
+      width:150px;
+      }
+      
+      .byline {
+      font-family:'Open-Sans',Tahoma,sans-serif;
+      font-weight:300;
+      text-align:left;
+      font-size:12px;
+      }
+
+    .subbr {
+      display: block;
+    }
+      
+	  .big-text{
+		font-size:60px;  
+	  }
+
+	  .text-head {
+      font-size:20pt;
+      font-weight:1000;
+	  }
+      }
+    
+      @media (min-width: 401px) and (max-width: 900px) {
+      body {
+      margin:0px;
+      background-image:url('http://i.imgur.com/I8fCACt.jpg');
+      background-attachment:fixed;
+      background-position:top left;
+      background-repeat:no-repeat;
+      background-size: 1400px auto;
+      min-height:100%;
+      }
+
+      .sidebar {
+        display:none;
+      }
+      
+      .divbuffer {
+      z-index:10px;
+      margin-top:150px;
+      margin-bottom:300px;
+      float:block;
+      width:100%;
+      color:#ffffff;
+      text-shadow: 1px 1px 5px #000000;
+      }
+      
+      .navmobile {
+      display:none;
+      }
+      
+      .navlist {
+      display:none;
+      }
+      
+      p {
+      font-family:'opens sans', tahoma, sans-serif;
+      font-size:14pt;
+      line-height:25px;
+      text-align:left;
+      }
+      
+      p:first-child:first-letter { 
+      float: left; 
+      font-family:'opens sans', tahoma, sans-serif;
+      font-size:80pt;
+      display:inline;
+      font-weight:600; 
+      line-height: 80px; 
+      padding-top: 4px; 
+      padding-right: 30px; 
+      padding-left: 3px;
+      padding-bottom:10px;
+      }
+	  
+	  .big-text{
+		font-size:120px;  
+	  }
+	  .text-head {
+      font-size:20pt;
+      font-weight:1000;
+	  }
+	   .headline {
+		font-size: 75px;  
+	  }
+      } 
+    </style> 
+    </head>  
+    <body>
+      <div class="navbar" style="padding-left:40px;"><b style="font-size:12pt;">NEWS 233</b></a> | <a class="navlinks" href="xx">The Increase</a><a class="navlinks" href="xx">How it works</a><a class="navlinks" href="xx">One Pot Method</a><a class="navlinks" href="xx">Demolition</a><a class="navlinks" href="xx">Clean up</a><a class="navlinks" href="xx">County by county</a>
+      </div>
+        <div class="navmobile"><a class="navlinks" href="http://www.ballstatedaily.com/" ><b>Ball State Daily</b></a></div>
+        
+      <div class="divbuffer">
+      	<div class="headline">Cracking Down</span></div>
+        <br>
+            <div class="subhead">Muncie Police Department fights to contain meth</div><br> 
+        <div class="byline">by Dakota Crawford, Aric Chokey<br class="subbr"> | NEWS 233</div><br>
+      </div>
+      <div class="divbottom">
+      	<div class="content" id="intro">
+        <br> 
+      <p>
+      <span class="dropcap">B</span><p>lacked out windows, late night activity and exhaust fans are common indicators that a home is being used to produce methamphetamine. In Delaware County, these often run-down homes with exhaust fans in the windows are easy to come by.</p>
+      <p>
+        Sniffing out and seizing these labs is a big part of Muncie Police Department narcotics officer Mike Nickems’ job. He and four other narcotics officers work to contain marijuana, bath salts and heroin in the area.
+      </p>
+      <p>
+        The team has already seized 55 meth labs in 2015 &mdash; that is more than all but two Indiana counties saw in total last year.
+      </p>
+      <p>
+        “We’re well on that pace to shatter what we did last year,” Nickems said.
+      </p>
+      <p>
+        Nickems said homeowners and concerned tenants in the area, thanks in part to extensive meth coverage by local media, know what to look for. Sometimes it’s a heavy traffic flow coming and going from a certain house. Sometimes it’s the stench that Nickems describes as a mixture of urine and Rain-X, a popular windshield washing fluid.
+      </p>
+      <p>
+        About half of the lab seizures at MPD are the result of a community tip, Nickems said.
+      </p>
+      <p>
+        “Some of it, we’ll get leads ourselves,” he continued. “Other times it’s the community reaching out because there are communities infested with meth and you know you got a lot of good people living in those neighborhoods and they’re sick of it.”
+      </p>
+      <p>
+        In 2011, just four labs were seized in Delaware County. In 2012, it was 62. Then in 2013 it was 109. The one-pot method makes it possible to cook meth by mixing a few common drugs, such as over-the-counter Sudafed, in a bottle. It’s easier now than ever.
+      </p>
+      <p>
+        No other county in the state has grown as much, or as quickly as Delaware County, though. It’s not clear to Nickems why the increase has been so much larger in the Muncie area than anywhere else in the state.
+      </p>
+      <p>
+        “I’m not going to deny there is a meth problem,” he said. but I think our numbers are higher because the community does reach out quite often. But there’s no hiding it that there is a meth problem here.”
+      </p>
+        <div class="extra-pad">
+          <aside style="display:block;width:100%;">
+            <span class="blockquote">“It’s taxpayer dollars that the police department has to spend. It’s also taking us away from other crimes that are happening.”
+              <br>
+            <span style="float:right;font-size:16px"><i>Mike Nickems</i></span>
+        </div>
+      <p>
+        A rising concern for Muncie officials is the costs associated with seizing a meth lab. It can take months to properly clean a residence and to make sure the property is livable. Nickems said a recent two-bedroom apartment cost the county more than $30,000 to decontaminate.
+      </p>
+      <p>
+        Bill Morgan, an inspector with the Muncie Building Commissioner, said most meth houses have to be stripped of all soft materials. Carpet and curtains, for example are stripped from the home during clean up. All furniture is thrown out.
+      </p>
+      <p>
+        Sometimes the furnace and air conditioning systems have to be trashed as well because the chemicals contaminate the duct work. This all adds up quickly for those who own the property, and though insurance will sometimes cover the costs, Morgan said it almost always takes an attorney to get that to happen.
+      </p>
+      <p>
+        “These property owners are facing many thousands of dollars to do the contamination,” Morgan said. “Frequently, some more thousands of dollars to get the place habitable again.”
+      </p>
+      <p>
+        If the homeowner is unable to make a home habitable again, the city might take over the residence and pay for the repairs. Sometimes it makes more sense for the homes to be demolished, Morgan said.
+      </p>
+      <p>
+        The biggest concern, Nickems said, is that citizens are taking a huge financial hit.
+      </p>
+      <p>
+        “It’s taxpayer dollars that the police department has to spend,” he said. “It’s also taking us away from other crimes that are happening.”
+      </p>
+
+      <script type='text/javascript' src='https://public.tableau.com/javascripts/api/viz_v1.js'></script><div class='tableauPlaceholder' style='width: 982px; height: 742px;'><noscript><a href='#'><img alt='Sheet 1 ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Mu&#47;MuncieMethLabs&#47;Sheet1&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz' width='982' height='742' style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='site_root' value='' /><param name='name' value='MuncieMethLabs&#47;Sheet1' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Mu&#47;MuncieMethLabs&#47;Sheet1&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='showVizHome' value='no' /><param name='showTabs' value='y' /><param name='bootstrapWhenNotified' value='true' /></object></div>
+
+
+
+
+
+      </p>
+       <img src="http://i.imgur.com/OQLtsC8.jpg" style="width:100%;">
+            <span align="right"><i>Photo courtesy of IPD | In the latter stages of production, meth falls to the bottom of the container</i></span>
+      
+       <center class="footer"><hr>
+       Design by <a target="_blank" style="text-decoration:none;color:#396;">Dakota Crawford</a>
+       </center>
+    <div id="image-pane" class="image-pane" align="center" onclick="document.getElementById('image-pane').style.display='none';">
+    <img src="" class="popup" align="center" id="popup">
+    </div>
+	</body>
+</html>
