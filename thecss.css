@@ -11,24 +11,35 @@ body {
   display:none;
 }
 
-.menu {
-  position:fixed;
-  width:100%;
-  background-color:#000;
-  color:#000;
-  text-align:center;
-  padding:10px 0px;
-  z-index:10;
+ul.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #000000;
 }
 
-
-.menu a {
-  padding:0px 10px;
-  color:#ffffff;
-  text-decoration:none;
+ul.topnav li {
+  float: left;
+  text-align: center;
 }
 
+ul.topnav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
 
+ul.topnav li a:hover:not(.active) {background-color: #4D84AE;}
+
+ul.topnav li a.active {background-color: #222;}
+
+ul.topnav li.right {float: right;}
+
+
+}
 .main {
   width:100%;
   position:absolute;
@@ -54,7 +65,7 @@ body {
 
 .portfolio {
   position: relative;
-  padding-top:65px;
+  padding-top:5px;
 }
   
 hr {
@@ -168,6 +179,11 @@ a:hover {
 
 /*queries*/
 
+@media screen and (max-width: 600px){
+    ul.topnav li.right, 
+    ul.topnav li {float: none;}
+}
+
 @media (max-width:400px) {
 
     .content {
@@ -193,8 +209,6 @@ a:hover {
      h3 {
       font-size:45px;
     }
-
-
 }
 
 @media (min-width:401px) and (max-width: 900px) {
